@@ -1,0 +1,21 @@
+generated: '2026-07-21'
+method: searched
+probe: true
+url: https://trust.urbansportsclub.com/
+platform: Vanta (EU trust center, app.eu.vanta.com)
+title: Urban Sports Club Trust Center
+description: >-
+  At Urban Sports Club, we're committed to supporting your physical and mental
+  wellness with an all-in-one sports and wellness membership. Your security and
+  privacy are our top priorities. We are committed to protecting your personal
+  data with industry-leading security measures, robust privacy practices, and a
+  transparent approach to trust.
+certifications: []
+note: The trust center is a JavaScript-rendered Vanta trust report; no named
+  certifications (SOC 2 / ISO 27001 / etc.) are extractable from the static
+  page, so none are asserted here. Meta keywords on the page are
+  "Trust, Security, Compliance, Automation".
+evidence:
+- source: https://trust.urbansportsclub.com/
+  status: 200
+  keywords: [trust center, security, compliance, privacy]

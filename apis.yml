@@ -1,8 +1,24 @@
 aid: urban-sports-club
 name: Urban Sports Club
-description: 'Urban Sports Club is a company surfaced as a portfolio company of partech and added to the
-  API Evangelist network as a stub for enrichment. Sector: Marketplace. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Urban Sports Club is a Berlin-based sports and wellness membership platform.
+  One flexible subscription gives members access to more than 50 sports and wellness
+  activities across thousands of partner venues in Europe, plus online classes, and
+  employers can offer it as a corporate fitness benefit. The company publishes no
+  public developer API; partner studios and gyms connect through third-party booking-software
+  integrations such as Eversports, Magicline, bsport, Virtuagym, and Mindbody. A
+  Partech portfolio company.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://urbansportsclub.com/images/content/facebook-share-image.jpg
 url: https://raw.githubusercontent.com/api-evangelist/urban-sports-club/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,16 +28,58 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Marketplace
+- Fitness
+- Sports
+- Wellness
+- Corporate Wellness
+- Subscriptions
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1
 common:
 - type: Website
   url: https://urbansportsclub.com/
+- type: Support
+  url: https://urbansports.zendesk.com/hc/en-us
+- type: Blog
+  url: https://blog.urbansportsclub.com/en-de/
+- type: Pricing
+  url: https://urbansportsclub.com/en/prices
+- type: TermsOfService
+  url: https://urbansportsclub.com/en/terms-of-service
+- type: PrivacyPolicy
+  url: https://urbansportsclub.com/en/privacy
+- type: Login
+  url: https://urbansportsclub.com/en/login
+- type: Contact
+  url: https://urbansportsclub.com/en/contact
+- type: Press
+  url: https://urbansportsclub.com/en/press
+- type: Careers
+  url: https://culture.urbansportsclub.com/en/jobs
+- type: GitHubOrganization
+  url: https://github.com/urbansportsclub
+- type: Partners
+  url: https://partners.urbansportsclub.com/en
+- type: Integrations
+  url: https://partners.urbansportsclub.com/en/integrations
+- type: DomainSecurity
+  url: security/urban-sports-club-domain-security.yml
+- type: TrustCenter
+  url: security/urban-sports-club-trust-center.yml
+- type: WellKnown
+  url: well-known/urban-sports-club-well-known.yml
+- type: LLMsTxt
+  url: llms/urban-sports-club-llms.txt
