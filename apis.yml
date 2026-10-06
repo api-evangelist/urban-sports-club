@@ -39,7 +39,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-10-06'
 tags:
 - Company
 - Marketplace
@@ -68,6 +68,10 @@ x-enrichment:
   artifacts_added: 4
   pass: local-v1
 common:
+- url: https://blog.urbansportsclub.com/de-de/
+  type: Blog
+- url: https://blog.urbansportsclub.com/de-de/feed/
+  type: BlogRSS
 - type: Website
   url: https://urbansportsclub.com/
 - type: Support
